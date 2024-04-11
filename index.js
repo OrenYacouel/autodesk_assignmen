@@ -4,8 +4,9 @@ const PORT = process.env.PORT || 3000;
 const cpuDeltaMs = process.env.CPU_DELTA_MS || 500;
 const googleapi = process.env.GOOGLE_API_KEY;
 
-const { google } = require ('googleapis');
 
+
+const { google } = require ('googleapis');
 const youtube = google.youtube({
   version: 'v3',
   // apikey 
@@ -18,7 +19,6 @@ const os = require('os');
 
 
 // Youtube API endpoint
-
 
 app.get('/youtube', async (req, res) => {
   try {
@@ -52,9 +52,7 @@ app.get('/youtube', async (req, res) => {
 });
 
 
-
 // CPU calculation functions
-
 
 function cpuSnapshot() {
   const cpus = os.cpus();
