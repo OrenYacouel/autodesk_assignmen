@@ -1,11 +1,12 @@
 
-const api_key = require('./config/keys').apikey;
+// const api_key = require('./config/keys').apikey;
 
 const { google } = require('googleapis');
 
 const youtube = google.youtube({
   version: 'v3',
-  auth: api_key
+  auth: 'AIzaSyD6A_cWP1rTMdJ7A6kdOYVARvhD7jCHvaI'
+
 });
 
 const express = require('express');
