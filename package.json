@@ -1,0 +1,24 @@
+{
+  "name": "autodesk_assignment",
+  "version": "1.0.0",
+  "description": "a simple service with two endpoints: Youtube API and health check for your service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrenYacouel/autodesk_assignment.git"
+  },
+  "author": "Oren Yacouel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrenYacouel/autodesk_assignment/issues"
+  },
+  "homepage": "https://github.com/OrenYacouel/autodesk_assignment#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^134.0.0"
+  }
+}
